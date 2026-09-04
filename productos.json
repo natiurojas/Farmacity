@@ -1,0 +1,97 @@
+{
+  "fuente": "https://www.farmacity.com/?keyword=&msclkid=b614c25633f4194d0f9ea8c6460d1c52&utm_source=bing&utm_medium=cpc&utm_campaign=BULL_FARMACITY_AR_BING_SC_X_BRAND&utm_term=farmacity&utm_content=Farmacity",
+  "fecha_extraccion": "2026-09-04T19:52:26",
+  "cantidad_productos": 10,
+  "productos": [
+    {
+      "nombre": "Crema Gel Facial Neutrogena Hydro Boost Water Repuesto x 50 g",
+      "marca": "Neutrogena",
+      "sku": "236467",
+      "precio": 212.31,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/crema-facial-neutrogena-hydro-boost-water-gel-refil-x-50-g/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/264486/236467_crema-facial-neutrogena-hydro-boost-water-gel-refil-x-50-g_imagen-3.jpg?v=638762859496500000"
+    },
+    {
+      "nombre": "Limpiador Facial CeraVe Hidratante con Ceramidas x 236 ml",
+      "marca": "CeraVe",
+      "sku": "224733",
+      "precio": 354.94,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/limpiador-facial-cerave-hidratante-x-236-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/246391/224733_limpiador-facial-cerave-hidratante-x-236-ml_imagen-1.jpg?v=638290822592930000"
+    },
+    {
+      "nombre": "Bálsamo Facial La Roche-Posay Cicaplast B5+ x 100 ml",
+      "marca": "La Roche-Posay",
+      "sku": "233161",
+      "precio": 800.03,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/balsamo-facial-la-roche-posay-cicaplast-b5-x-100-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/240621/233161_balsamo-facial-la-roche-posay-cicaplast-b5-x-100-ml_imagen-1.jpg?v=638174159187370000"
+    },
+    {
+      "nombre": "Gel de Limpieza Dermaglós Piel Mixta a Grasa x 150 g",
+      "marca": "Dermaglós",
+      "sku": "123467",
+      "precio": 166.74,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/gel-facial-de-limpieza-purificante-x-150-gr/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/281742/4708_gel-facial-de-limpieza-purificante-x-150-gr_Imagen-1.jpg.jpg?v=638937271525370000"
+    },
+    {
+      "nombre": "Gel Limpiador Facial La Roche-Posay Effaclar Purificante para Piel Grasa x 400 ml",
+      "marca": "La Roche-Posay",
+      "sku": "127455",
+      "precio": 771.76,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/gel-limpiador-la-roche-posay-effaclar-purificante-para-piel-grasa-x-400-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/285495/127455_gel-limpiador-la-roche-posay-effaclar-purificante-para-piel-grasa-x-400-ml_imagen-1.jpg?v=638979648412930000"
+    },
+    {
+      "nombre": "Corrector de Ojeras Rimmel The Multi-Tasker x 10 ml",
+      "marca": "Rimmel",
+      "sku": "224265",
+      "precio": 379.91,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/corrector-de-ojeras-rimmel-the-multi-tasker-x-10-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/292158/224265_corrector-de-ojeras-rimmel-the-multi-tasker-x-10-ml_imagen-1.jpg?v=639137567529370000"
+    },
+    {
+      "nombre": "Crema Contorno de Ojos Acf by Dadatina Energía x 15 g",
+      "marca": "Acf",
+      "sku": "229571",
+      "precio": 196.8,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/contorno-de-ojos-acf-by-dadatina-energia-x-15-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/269674/229571_contorno-de-ojos-acf-by-dadatina-energia-x-15-ml_imagen-1.jpg.jpg?v=638823324199800000"
+    },
+    {
+      "nombre": "Sérum Facial Get The Look Retinol + Ácido Hialurónico x 30 ml",
+      "marca": "Get the Look",
+      "sku": "241506",
+      "precio": 116.94,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/serum-facial-get-the-look-retinol-acido-hialuronico-x-30-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/263036/241506_serum-facial-get-the-look-retinol-acido-hialuronico-x-30-ml_imagen-1.jpg?v=638691064724830000"
+    },
+    {
+      "nombre": "Shampoo Vichy Dercos Anti-Caspa Cabello Normal a Graso x 200 ml",
+      "marca": "Vichy",
+      "sku": "151685",
+      "precio": 462.71,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/shampoo-anticaspa-para-cabello-normal-a-graso-dercos-x-200-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/273029/151685_shampoo-anticaspa-para-cabello-normal-a-graso-dercos-x-200-ml_Imagen-1.jpg.jpg?v=638842252776430000"
+    },
+    {
+      "nombre": "Acondicionador Elvive Hialurónico Pure x 400 ml",
+      "marca": "Elvive",
+      "sku": "234381",
+      "precio": 77.93,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/acondicionador-elvive-hialuronico-pure-x-400-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/243891/234381_acondicionador-elvive-hialuronico-pure-x-400-ml_imagen-1.jpg?v=638230328878170000"
+    }
+  ]
+}

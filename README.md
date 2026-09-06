@@ -19,7 +19,9 @@ Los procesos que realiza el scraping son:
 3. Extraer las partes que nos interesan (nombre, precio, imágenes, códigos).
 4. Identificar el apartado de **Promociones** del sitio.
 5. Recorrer **todos los productos disponibles** del catálogo.
-6. Guardar los datos en formato estructurado **JSON** para que otros sistemas
+6. Extraer de la sección **Sucursales**: horarios de atención, dirección,
+   teléfono y coordenadas.
+7. Guardar los datos en formato estructurado **JSON** para que otros sistemas
    puedan procesarlos.
 
 ---
@@ -31,10 +33,12 @@ Los procesos que realiza el scraping son:
 | `scraper_farmacity.py` | Primer script: extrae los productos del carrusel de la página de inicio y guarda `productos.json`. |
 | `scraper_promociones.py` | Extrae el apartado Promociones (banners y productos en promoción) y guarda `promociones.json`. |
 | `scraper_productos.py` | Recorre todo el catálogo de productos por categorías y guarda `productos_todos.json` y `promociones_catalogo.json`. |
+| `scraper_sucursales.py` | Extrae todas las sucursales (dirección, teléfono, coordenadas y horarios) y guarda `sucursales.json`. |
 | `productos.json` | Productos del carrusel de la pantalla de inicio (primeros 10). |
 | `promociones.json` | Promociones del sitio: banners (URLs de imagen) + productos destacados + tipos de promoción. |
 | `promociones_catalogo.json` | Promociones detectadas en todo el catálogo (tipo, vigencia y cantidad de productos). |
 | `productos_todos.json` | Catálogo completo: 23.585 productos con nombre, precio, imagen y códigos. |
+| `sucursales.json` | 389 sucursales con dirección, teléfono, coordenadas y horarios de atención. |
 | `README.md` | Este documento. |
 
 ---
@@ -93,6 +97,26 @@ Los procesos que realiza el scraping son:
 - Agrega todas las promociones detectadas en el catálogo y guarda
   `promociones_catalogo.json`.
 
+### 4. `scraper_sucursales.py` — sección Sucursales
+
+- Accede al apartado `https://www.farmacity.com/farmacity/sucursales` y detecta
+  que la lista de sucursales se carga en el navegador mediante un componente
+  propio del sitio (`farmacityar.branch-and-services`).
+- Analizando el código JavaScript del sitio se encuentra la API pública que usa
+  el componente:
+  `https://app-landing-api-prod.azurewebsites.net/sucursales`.
+- Primero obtiene el listado completo con
+  `GET /sucursales/all` y luego pide el detalle de cada sucursal con
+  `POST /sucursales` (en lotes de 20 IDs, como hace el sitio).
+- De cada sucursal extrae:
+  - **Dirección** (calle + número) y ciudad / provincia
+  - **Teléfono**
+  - **Coordenadas** (latitud y longitud, para el mapa)
+  - **Horarios de atención** por día (Lunes a Domingo + Feriado), incluyendo el
+    flag de sucursal que abre 24 hs
+  - Servicios disponibles con sus propios horarios y obras sociales aceptadas
+- Guarda el resultado en `sucursales.json`.
+
 ---
 
 ## Cómo ejecutar
@@ -108,6 +132,9 @@ python scraper_promociones.py
 
 # Catálogo completo (tarea 2, tarda varios minutos y requiere internet estable)
 python scraper_productos.py
+
+# Sucursales (tarea 2, ~20 peticiones en lotes de 20)
+python scraper_sucursales.py
 ```
 
 Para regenerar `promociones.json` con las promociones agregadas del catálogo:
@@ -177,6 +204,42 @@ Los precios de la API llegan en **centavos** (ej. `21231` = $212,31); el script
 de la tarea 1 los convierte a decimales y `productos_todos.json` los guarda ya
 en pesos (la API de catálogo los entrega directamente en pesos).
 
+### `sucursales.json`
+
+```json
+{
+  "seccion": "Sucursales",
+  "url": "https://www.farmacity.com/farmacity/sucursales",
+  "cantidad_sucursales": 389,
+  "sucursales": [
+    {
+      "id": 2,
+      "nombre": "CENTRO [Pellegrini 457]",
+      "direccion": "Pellegrini 457",
+      "ciudad": "Capital Federal",
+      "provincia": "Capital Federal",
+      "telefono": "4326-0235",
+      "coordenadas": {"lat": -34.60239, "lng": -58.37982},
+      "formato": "Sucursal Farmacity",
+      "horarios_de_atencion": [
+        {"dia": "Lunes", "apertura": "08:30", "cierre": "20:00", "es_24hs": false},
+        {"dia": "Martes", "apertura": "08:30", "cierre": "20:00", "es_24hs": false},
+        {"dia": "Domingo", "apertura": "12:00", "cierre": "13:00", "es_24hs": false},
+        {"dia": "Feriado", "apertura": "15:31", "cierre": "15:37", "es_24hs": false}
+      ],
+      "servicios": [
+        {"nombre": "CashBack (ExtraCash)", "detalle": "", "horarios": [ ... ]}
+      ],
+      "obras_sociales": ["GALENO", "IOMA", ...]
+    }
+  ]
+}
+```
+
+- Los días van de Lunes a Domingo y se agrega una entrada **"Feriado"**, tal
+  como lo muestra el sitio (días ausentes = sin atención ese día).
+- Si la sucursal atiende 24 hs, `es_24hs: true` con horario 0:00–24:00.
+
 ---
 
 ## Resultados obtenidos
@@ -189,6 +252,10 @@ en pesos (la API de catálogo los entrega directamente en pesos).
 - **Catálogo completo:** 23.585 registros únicos; 16.035 con stock disponible;
   4.851 con descuento respecto del precio de lista; 824 con promociones
   asociadas.
+- **Sucursales:** 389 sucursales con **dirección**, **teléfono** (todas) y
+  **coordenadas** (387 con lat/lng válidas; las 2 restantes son depósitos
+  logísticos sin geolocalización). Se extrajeron los **horarios de atención**
+  por día completo; **79** de ellas atienden **24 hs**.
 
 ---
 
@@ -203,6 +270,10 @@ en pesos (la API de catálogo los entrega directamente en pesos).
   términos y condiciones) vive dentro de las **imágenes de los banners**; por
   ese motivo se entregan las URLs de las imágenes tal como solicita la
   consigna.
+- La lista de sucursales también se renderiza con JavaScript: el dato se
+  obtiene de la API pública que usa el propio sitio
+  (`app-landing-api-prod.azurewebsites.net/sucursales`), con el mismo token de
+  autorización que viaja en el bundle del componente.
 - El scraping usa unicamente la biblioteca estándar de Python y respeta un
   retardo entre peticiones para no sobrecargar el servidor.
 ```

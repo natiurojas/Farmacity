@@ -1,0 +1,168 @@
+{
+  "fecha_extraccion": "2026-09-04T21:06:37",
+  "cantidad_promociones": 27,
+  "promociones": [
+    {
+      "tipo": "2x1 Combinable",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "2x1 Combinable#01/09 - 21/09 // ID: 250079 (Bot carga: 28-08)",
+      "cant_productos": 13
+    },
+    {
+      "tipo": "2x1 Combinable Tu Farmacity",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "2x1 Combinable Tu Farmacity#01/09 - 21/09 // ID: 250077 (Bot carga: 28-08)",
+      "cant_productos": 63
+    },
+    {
+      "tipo": "2x1",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "2x1#01/09 - 21/09 (Bot carga: 28-08)",
+      "cant_productos": 167
+    },
+    {
+      "tipo": "2x1 Tu Farmacity",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "2x1 Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
+      "cant_productos": 234
+    },
+    {
+      "tipo": "2x1 Solo Web",
+      "vigencia": "01/09 - 30/09",
+      "nombre": "2x1 Solo Web#01/09 - 30/09 (Bot carga: 28-08)",
+      "cant_productos": 30
+    },
+    {
+      "tipo": "-80% 2da unidad Tu Farmacity",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "-80% 2da unidad Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
+      "cant_productos": 2
+    },
+    {
+      "tipo": "2x1 Solo Web",
+      "vigencia": "01/09 - 06/09",
+      "nombre": "2x1 Solo Web#01/09 - 06/09 (Bot carga: 28-08)",
+      "cant_productos": 3
+    },
+    {
+      "tipo": "3x2",
+      "vigencia": "01/09 - 06/09",
+      "nombre": "3x2#01/09 - 06/09 (Bot carga: 28-08)",
+      "cant_productos": 25
+    },
+    {
+      "tipo": "3x2 Solo Web",
+      "vigencia": "01/09 - 30/09",
+      "nombre": "3x2 Solo Web#01/09 - 30/09 (Bot carga: 28-08)",
+      "cant_productos": 1
+    },
+    {
+      "tipo": "-70% 2da unidad",
+      "vigencia": "01/09 - 06/09",
+      "nombre": "-70% 2da unidad#01/09 - 06/09 (Bot carga: 28-08)",
+      "cant_productos": 4
+    },
+    {
+      "tipo": "2x1 Tu Farmacity",
+      "vigencia": "01/09 - 30/09",
+      "nombre": "2x1 Tu Farmacity#01/09 - 30/09 (Bot carga: 28-08)",
+      "cant_productos": 31
+    },
+    {
+      "tipo": "3x2",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "3x2#01/09 - 21/09 (Bot carga: 28-08)",
+      "cant_productos": 5
+    },
+    {
+      "tipo": "-70% 2da unidad",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "-70% 2da unidad#01/09 - 21/09 (Bot carga: 28-08)",
+      "cant_productos": 7
+    },
+    {
+      "tipo": "-50% 2da unidad Tu Farmacity",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "-50% 2da unidad Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
+      "cant_productos": 7
+    },
+    {
+      "tipo": "-50% 2da unidad",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "-50% 2da unidad#01/09 - 21/09 (Bot carga: 28-08)",
+      "cant_productos": 4
+    },
+    {
+      "tipo": "3x2 Tu Farmacity",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "3x2 Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
+      "cant_productos": 21
+    },
+    {
+      "tipo": "-50% 2da unidad Tu Farmacity",
+      "vigencia": "01/09 - 13/09",
+      "nombre": "-50% 2da unidad Tu Farmacity#01/09 - 13/09 (emergente)",
+      "cant_productos": 1
+    },
+    {
+      "tipo": "2x1",
+      "vigencia": "01/09 - 30/09",
+      "nombre": "2x1#01/09 - 30/09 (Bot carga: 28-08)",
+      "cant_productos": 12
+    },
+    {
+      "tipo": "2x1 Solo Web",
+      "vigencia": "01/09 - 09/09",
+      "nombre": "2x1 Solo Web#01/09 - 09/09 (emergente)",
+      "cant_productos": 1
+    },
+    {
+      "tipo": "2x1",
+      "vigencia": "01/09 - 06/09",
+      "nombre": "2x1#01/09 - 06/09 (Bot carga: 28-08)",
+      "cant_productos": 136
+    },
+    {
+      "tipo": "2x1 Solo Web",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "2x1 Solo Web#01/09 - 21/09 (Bot carga: 28-08)",
+      "cant_productos": 2
+    },
+    {
+      "tipo": "-50% 2da unidad Tu Farmacity",
+      "vigencia": "01/09 - 06/09",
+      "nombre": "-50% 2da unidad Tu Farmacity#01/09 - 06/09 (Bot carga: 28-08)",
+      "cant_productos": 10
+    },
+    {
+      "tipo": "3x2 Tu Farmacity",
+      "vigencia": "01/09 - 06/09",
+      "nombre": "3x2 Tu Farmacity#01/09 - 06/09 (Bot carga: 28-08)",
+      "cant_productos": 35
+    },
+    {
+      "tipo": "-70% 2da unidad Tu Farmacity",
+      "vigencia": "01/09 - 06/09",
+      "nombre": "-70% 2da unidad Tu Farmacity#01/09 - 06/09 (Bot carga: 28-08)",
+      "cant_productos": 4
+    },
+    {
+      "tipo": "-70% 2da unidad Tu Farmacity",
+      "vigencia": "01/09 - 30/09",
+      "nombre": "-70% 2da unidad Tu Farmacity#01/09 - 30/09 (Bot carga: 28-08)",
+      "cant_productos": 4
+    },
+    {
+      "tipo": "-70% 2da unidad Tu Farmacity",
+      "vigencia": "01/09 - 21/09",
+      "nombre": "-70% 2da unidad Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
+      "cant_productos": 1
+    },
+    {
+      "tipo": "-80% 2da unidad Tu Farmacity",
+      "vigencia": "01/09 - 06/09",
+      "nombre": "-80% 2da unidad Tu Farmacity#01/09 - 06/09 (Bot carga: 28-08)",
+      "cant_productos": 1
+    }
+  ]
+}

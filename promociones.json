@@ -1,0 +1,406 @@
+{
+  "seccion": "Promociones (apartado del sitio)",
+  "url": "https://www.farmacity.com/promociones",
+  "fecha_extraccion": "2026-09-04T20:32:04",
+  "nota": "La información de cada promoción (vigencia, marcas, medios de pago, sucursales y términos) se presenta en banners de imagen; se incluyen las URLs de esas imágenes.",
+  "banners": [
+    {
+      "imagen": "https://farmacityar.vtexassets.com/assets/vtex.file-manager-graphql/images/e0455cb7-a906-43e2-9791-ce2593fb41a3___ac3eba0fcb9a8fb727e4419c8f6d4391.jpg",
+      "descripcion": "",
+      "destino": ""
+    },
+    {
+      "imagen": "https://farmacityar.vtexassets.com/assets/vtex.file-manager-graphql/images/06e31738-6ae2-4d88-9d2b-5013290003f1___0ea738479e694d4c3a74eb9d83f7d3d1.webp",
+      "descripcion": "",
+      "destino": ""
+    },
+    {
+      "imagen": "https://farmacityar.vtexassets.com/assets/vtex.file-manager-graphql/images/a0149e98-bb0b-444d-83a4-5b64cc597604___84499bbd62eb7ef5a76b86644405074a.webp",
+      "descripcion": "",
+      "destino": ""
+    }
+  ],
+  "cantidad_productos_destacados": 21,
+  "productos_destacados_en_promocion": [
+    {
+      "nombre": "Jabón Líquido Concentrado para Diluir Ala Matic Máxima Remoción x 500 ml",
+      "marca": "Ala",
+      "sku": "220211",
+      "precio": 86.03,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/jabon-liquido-para-ropa-ala-botella-x-500-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/289668/220211_jabon-liquido-para-ropa-ala-botella-x-500-ml__imagen-1.jpg?v=639100407598430000",
+      "teasers": []
+    },
+    {
+      "nombre": "Toalla Femenina Kotex Extra Protección Nocturna con Alas x 16 un",
+      "marca": "Kotex",
+      "sku": "211770",
+      "precio": 44.99,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/toalla-femeninas-kotex-extra-proteccion-nocturna-c-a-16-un/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/281003/211770_toalla-femeninas-kotex-extra-proteccion-nocturna-c-a-16-un__imagen-1.jpg?v=638925057638530000",
+      "teasers": []
+    },
+    {
+      "nombre": "Emulsión Corporal Bagóvit A Cuidados Cotidianos Efecto Seda x 350 ml",
+      "marca": "Bagóvit",
+      "sku": "162646",
+      "precio": 124.14,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/bagovit-a-efecto-seda-emulsion-x-350-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/242516/162646_bagovit-a-efecto-seda-emulsion-x-350-ml_imagen-1.jpg?v=638198363617230000",
+      "teasers": []
+    },
+    {
+      "nombre": "Protector Solar Facial Veganis sin Color Fps 60 x 35 ml",
+      "marca": "Veganis",
+      "sku": "242555",
+      "precio": 130.5,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/protector-solar-facial-veganis-fps-60-sin-color-x-35-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/263717/242555_protector-solar-facial-veganis-fps-60-sin-color-x-35-ml_imagen-1.jpg?v=638736795745000000",
+      "teasers": []
+    },
+    {
+      "nombre": "Protector Solar Facial Veganis Dark Fps 60 x 35 ml",
+      "marca": "Veganis",
+      "sku": "242554",
+      "precio": 130.5,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/protector-solar-facial-veganis-dark-fps-60-x-35-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/263719/242554_protector-solar-facial-veganis-dark-fps-60-x-35-ml_imagen-1.jpg?v=638736797659270000",
+      "teasers": []
+    },
+    {
+      "nombre": "Protector Solar Dermaglós Niños Emulsión Fps 50 x 180 ml",
+      "marca": "Dermaglós",
+      "sku": "212390",
+      "precio": 240.77,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/protector-solar-dermaglos-fps-50-ninos-x-180-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/262725/212390_protector-solar-dermaglos-fps-50-ninos-x-180-ml__imagen--1.jpg?v=638677974649870000",
+      "teasers": []
+    },
+    {
+      "nombre": "Protector Solar Dermaglós Emulsión Fps 40 x 380 ml",
+      "marca": "Dermaglós",
+      "sku": "163572",
+      "precio": 312.65,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/protector-solar-dermaglos-fps-40-emulsion-x-380-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/250373/163572_protector-solar-dermaglos-fps-40-emulsion-x-380-ml___imagen-1.jpg?v=638380074718570000",
+      "teasers": []
+    },
+    {
+      "nombre": "Protector Solar Dermaglós Emulsión Fps 50 x 50 ml",
+      "marca": "Dermaglós",
+      "sku": "205298",
+      "precio": 74.61,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/protector-solar-dermaglos-fps-50-emulsion-x50-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/251565/205298_protector-solar-dermaglos-fps-50-emulsion-x50-ml__imagen--1.jpg?v=638417998012100000",
+      "teasers": []
+    },
+    {
+      "nombre": "Óleo Capilatis Natural Oil con Argán x 60 ml",
+      "marca": "Capilatis",
+      "sku": "203232",
+      "precio": 177.0,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/oleo-capilatis-natural-oil-con-argan-x-600-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/188554/203232_oleo-capilatis-natural-oil-con-argan-x-600-ml_imagen-1.jpg?v=637037242006030000",
+      "teasers": []
+    },
+    {
+      "nombre": "Body Splash Cocot Pure Seduction x 125 ml",
+      "marca": "Cocot",
+      "sku": "205602",
+      "precio": 129.0,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/body-splash-cocot-pure-seduction-x-125-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/187201/205602_body-splash-cocot-pure-seduction-x-125-ml_imagen-1.jpg?v=637000349089470000",
+      "teasers": []
+    },
+    {
+      "nombre": "Suplemento Dietario Natural Life Complex B-50 x 30 Comp",
+      "marca": "Natural Life",
+      "sku": "221227",
+      "precio": 227.8,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/suplemento-dietario-natural-life-complex-b-50-x-30-comprimidos/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/208861/221227_suplemento-dietario-natural-life-complex-b-50-x-30-comprimidos_imagen-1.jpg?v=637527190415270000",
+      "teasers": []
+    },
+    {
+      "nombre": "Protector Solar Facial Veganis Light Fps 60 x 35 ml",
+      "marca": "Veganis",
+      "sku": "242552",
+      "precio": 261.0,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/protector-solar-facial-veganis-light-fps-60-x-35-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/263716/242552_protector-solar-facial-veganis-light-fps-60-x-35-ml_imagen-1.jpg?v=638736795416130000",
+      "teasers": []
+    },
+    {
+      "nombre": "Cepillo Dental Colgate Interdental x 2 mm x 4 un",
+      "marca": "Colgate",
+      "sku": "224727",
+      "precio": 71.6,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/cepillo-dental-colgate-interdental-x-4-un/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/217358/224727_cepillo-dental-colgate-interdental-x-4-un_imagen-1.jpg?v=637723607315970000",
+      "teasers": []
+    },
+    {
+      "nombre": "Protector Solar Facial Veganis Medium Fps 60 x 35 ml",
+      "marca": "Veganis",
+      "sku": "242553",
+      "precio": 261.0,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/protector-solar-facial-veganis-medium-fps-60-x-35-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/263718/242553_protector-solar-facial-veganis-medium-fps-60-x-35-ml_imagen-1.jpg?v=638736797399730000",
+      "teasers": []
+    },
+    {
+      "nombre": "Pantalla Capilar Biferdil x 155 ml",
+      "marca": "Biferdil",
+      "sku": "232100",
+      "precio": 124.0,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/pantalla-capilar-biferdil-x-155-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/234672/232100_pantalla-capilar-biferdil-x-155-ml_imagen-1.jpg?v=638088900152030000",
+      "teasers": []
+    },
+    {
+      "nombre": "Combo Corporal Bagóvit Emulsión + Reafirmante",
+      "marca": "Bagóvit",
+      "sku": "229359",
+      "precio": 510.65,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/combo-corporal-emulsion-reafirmante-bagovit/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/226839/229359_combo-corporal-emulsion-reafirmante-bagovit_imagen-1.jpg?v=637962674266100000",
+      "teasers": []
+    },
+    {
+      "nombre": "Kit Eucerin Eucerin Hyaluron-Filler Crema Antiedad de Noche + Sérum Facial",
+      "marca": "Eucerin",
+      "sku": "232632",
+      "precio": 2510.35,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/crema-antiedad-de-noche-eucerin-hyaluron-filler-elasticity-fps-15-x-50-ml-serum-facial-antiedad-hyaluron-filler-vitaminc-c-booster-x-8-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/238021/232632_crema-antiedad-de-noche-eucerin-hyaluron-filler-elasticity-fps-15-x-50-ml-serum-facial-antiedad-hyaluron-filler-vitaminc-c-booster-x-8-ml_imagen-1.jpg?v=638127815035730000",
+      "teasers": []
+    },
+    {
+      "nombre": "Desodorante Impulse Musk en Aerosol x 150 ml",
+      "marca": "Impulse",
+      "sku": "211740",
+      "precio": 37.54,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/desodorante-impulse-perfume-musk-en-aerosol-x-150-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/204149/211740_desodorante-impulse-perfume-musk-en-aerosol-x-150-ml_imagen-1.jpg?v=637384524992470000",
+      "teasers": []
+    },
+    {
+      "nombre": "Desodorante Antitranspirante Old Spice Sudor Defense x 50 g",
+      "marca": "Old Spice",
+      "sku": "234367",
+      "precio": 35.49,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/desodorante-antitranspirante-old-spice-wolfthorn-x-50-g/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/248876/234367_desodorante-antitranspirante-old-spice-sudordefence-x-50-g_imagen-1.jpg?v=638345540249730000",
+      "teasers": []
+    },
+    {
+      "nombre": "Antitranspirante en Barra Old Spice Wolfthorn x 50 g",
+      "marca": "Old Spice",
+      "sku": "234378",
+      "precio": 35.49,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/desodorante-antitranspirante-old-spice-sudor-defense-x-50-g/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/248875/234378_desodorante-antitranspirante-old-spice-wolfworn-x-50-g_imagen-1.jpg?v=638345538437900000",
+      "teasers": []
+    },
+    {
+      "nombre": "Desodorante Impulse True Love en Aerosol x 150 ml",
+      "marca": "Impulse",
+      "sku": "211739",
+      "precio": 37.54,
+      "moneda": "ARS",
+      "url": "https://www.farmacity.com/desodorante-impulse-perfume-true-love-en-aerosol-x-150-ml/p",
+      "imagen": "https://farmacityar.vtexassets.com/arquivos/ids/204147/211739_desodorante-impulse-perfume-true-love-en-aerosol-x-150-ml_imagen-1.jpg?v=637384524026470000",
+      "teasers": []
+    }
+  ],
+  "tipos_de_promocion": [],
+  "tipos_de_promocion_catalogo": {
+    "fecha_extraccion": "2026-09-04T21:06:37",
+    "cantidad_promociones": 27,
+    "promociones": [
+      {
+        "tipo": "2x1 Combinable",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "2x1 Combinable#01/09 - 21/09 // ID: 250079 (Bot carga: 28-08)",
+        "cant_productos": 13
+      },
+      {
+        "tipo": "2x1 Combinable Tu Farmacity",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "2x1 Combinable Tu Farmacity#01/09 - 21/09 // ID: 250077 (Bot carga: 28-08)",
+        "cant_productos": 63
+      },
+      {
+        "tipo": "2x1",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "2x1#01/09 - 21/09 (Bot carga: 28-08)",
+        "cant_productos": 167
+      },
+      {
+        "tipo": "2x1 Tu Farmacity",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "2x1 Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
+        "cant_productos": 234
+      },
+      {
+        "tipo": "2x1 Solo Web",
+        "vigencia": "01/09 - 30/09",
+        "nombre": "2x1 Solo Web#01/09 - 30/09 (Bot carga: 28-08)",
+        "cant_productos": 30
+      },
+      {
+        "tipo": "-80% 2da unidad Tu Farmacity",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "-80% 2da unidad Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
+        "cant_productos": 2
+      },
+      {
+        "tipo": "2x1 Solo Web",
+        "vigencia": "01/09 - 06/09",
+        "nombre": "2x1 Solo Web#01/09 - 06/09 (Bot carga: 28-08)",
+        "cant_productos": 3
+      },
+      {
+        "tipo": "3x2",
+        "vigencia": "01/09 - 06/09",
+        "nombre": "3x2#01/09 - 06/09 (Bot carga: 28-08)",
+        "cant_productos": 25
+      },
+      {
+        "tipo": "3x2 Solo Web",
+        "vigencia": "01/09 - 30/09",
+        "nombre": "3x2 Solo Web#01/09 - 30/09 (Bot carga: 28-08)",
+        "cant_productos": 1
+      },
+      {
+        "tipo": "-70% 2da unidad",
+        "vigencia": "01/09 - 06/09",
+        "nombre": "-70% 2da unidad#01/09 - 06/09 (Bot carga: 28-08)",
+        "cant_productos": 4
+      },
+      {
+        "tipo": "2x1 Tu Farmacity",
+        "vigencia": "01/09 - 30/09",
+        "nombre": "2x1 Tu Farmacity#01/09 - 30/09 (Bot carga: 28-08)",
+        "cant_productos": 31
+      },
+      {
+        "tipo": "3x2",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "3x2#01/09 - 21/09 (Bot carga: 28-08)",
+        "cant_productos": 5
+      },
+      {
+        "tipo": "-70% 2da unidad",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "-70% 2da unidad#01/09 - 21/09 (Bot carga: 28-08)",
+        "cant_productos": 7
+      },
+      {
+        "tipo": "-50% 2da unidad Tu Farmacity",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "-50% 2da unidad Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
+        "cant_productos": 7
+      },
+      {
+        "tipo": "-50% 2da unidad",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "-50% 2da unidad#01/09 - 21/09 (Bot carga: 28-08)",
+        "cant_productos": 4
+      },
+      {
+        "tipo": "3x2 Tu Farmacity",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "3x2 Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
+        "cant_productos": 21
+      },
+      {
+        "tipo": "-50% 2da unidad Tu Farmacity",
+        "vigencia": "01/09 - 13/09",
+        "nombre": "-50% 2da unidad Tu Farmacity#01/09 - 13/09 (emergente)",
+        "cant_productos": 1
+      },
+      {
+        "tipo": "2x1",
+        "vigencia": "01/09 - 30/09",
+        "nombre": "2x1#01/09 - 30/09 (Bot carga: 28-08)",
+        "cant_productos": 12
+      },
+      {
+        "tipo": "2x1 Solo Web",
+        "vigencia": "01/09 - 09/09",
+        "nombre": "2x1 Solo Web#01/09 - 09/09 (emergente)",
+        "cant_productos": 1
+      },
+      {
+        "tipo": "2x1",
+        "vigencia": "01/09 - 06/09",
+        "nombre": "2x1#01/09 - 06/09 (Bot carga: 28-08)",
+        "cant_productos": 136
+      },
+      {
+        "tipo": "2x1 Solo Web",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "2x1 Solo Web#01/09 - 21/09 (Bot carga: 28-08)",
+        "cant_productos": 2
+      },
+      {
+        "tipo": "-50% 2da unidad Tu Farmacity",
+        "vigencia": "01/09 - 06/09",
+        "nombre": "-50% 2da unidad Tu Farmacity#01/09 - 06/09 (Bot carga: 28-08)",
+        "cant_productos": 10
+      },
+      {
+        "tipo": "3x2 Tu Farmacity",
+        "vigencia": "01/09 - 06/09",
+        "nombre": "3x2 Tu Farmacity#01/09 - 06/09 (Bot carga: 28-08)",
+        "cant_productos": 35
+      },
+      {
+        "tipo": "-70% 2da unidad Tu Farmacity",
+        "vigencia": "01/09 - 06/09",
+        "nombre": "-70% 2da unidad Tu Farmacity#01/09 - 06/09 (Bot carga: 28-08)",
+        "cant_productos": 4
+      },
+      {
+        "tipo": "-70% 2da unidad Tu Farmacity",
+        "vigencia": "01/09 - 30/09",
+        "nombre": "-70% 2da unidad Tu Farmacity#01/09 - 30/09 (Bot carga: 28-08)",
+        "cant_productos": 4
+      },
+      {
+        "tipo": "-70% 2da unidad Tu Farmacity",
+        "vigencia": "01/09 - 21/09",
+        "nombre": "-70% 2da unidad Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
+        "cant_productos": 1
+      },
+      {
+        "tipo": "-80% 2da unidad Tu Farmacity",
+        "vigencia": "01/09 - 06/09",
+        "nombre": "-80% 2da unidad Tu Farmacity#01/09 - 06/09 (Bot carga: 28-08)",
+        "cant_productos": 1
+      }
+    ]
+  },
+  "resumen_catalogo": "Se detectaron promociones por producto en todo el catalogo (23.585 registros). Metodo de pago, sucursales y terminos estan dentro de los banners/imagenes."
+}

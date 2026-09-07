@@ -1,5 +1,5 @@
 {
-  "fecha_extraccion": "2026-09-04T21:06:37",
+  "fecha_extraccion": "2026-09-06T18:36:19",
   "cantidad_promociones": 27,
   "promociones": [
     {
@@ -18,19 +18,19 @@
       "tipo": "2x1",
       "vigencia": "01/09 - 21/09",
       "nombre": "2x1#01/09 - 21/09 (Bot carga: 28-08)",
-      "cant_productos": 167
+      "cant_productos": 161
     },
     {
       "tipo": "2x1 Tu Farmacity",
       "vigencia": "01/09 - 21/09",
       "nombre": "2x1 Tu Farmacity#01/09 - 21/09 (Bot carga: 28-08)",
-      "cant_productos": 234
+      "cant_productos": 232
     },
     {
       "tipo": "2x1 Solo Web",
       "vigencia": "01/09 - 30/09",
       "nombre": "2x1 Solo Web#01/09 - 30/09 (Bot carga: 28-08)",
-      "cant_productos": 30
+      "cant_productos": 29
     },
     {
       "tipo": "-80% 2da unidad Tu Farmacity",
@@ -51,12 +51,6 @@
       "cant_productos": 25
     },
     {
-      "tipo": "3x2 Solo Web",
-      "vigencia": "01/09 - 30/09",
-      "nombre": "3x2 Solo Web#01/09 - 30/09 (Bot carga: 28-08)",
-      "cant_productos": 1
-    },
-    {
       "tipo": "-70% 2da unidad",
       "vigencia": "01/09 - 06/09",
       "nombre": "-70% 2da unidad#01/09 - 06/09 (Bot carga: 28-08)",
@@ -67,6 +61,12 @@
       "vigencia": "01/09 - 30/09",
       "nombre": "2x1 Tu Farmacity#01/09 - 30/09 (Bot carga: 28-08)",
       "cant_productos": 31
+    },
+    {
+      "tipo": "3x2 Solo Web",
+      "vigencia": "01/09 - 30/09",
+      "nombre": "3x2 Solo Web#01/09 - 30/09 (Bot carga: 28-08)",
+      "cant_productos": 1
     },
     {
       "tipo": "3x2",

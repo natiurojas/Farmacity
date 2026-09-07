@@ -1,10 +1,19 @@
 import json
+import re
 import time
 import gzip
 import os
 import datetime
 import urllib.request
 import urllib.error
+
+
+def limpiar_html(texto):
+    if not texto:
+        return ""
+    texto = re.sub(r"<[^>]+>", " ", texto)
+    texto = re.sub(r"\s+", " ", texto).strip()
+    return texto
 
 API_BASE = "https://www.farmacity.com/api/catalog_system/pub/products/search/"
 CHECKPOINT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "checkpoint_productos.json")
@@ -138,6 +147,8 @@ def procesar_producto(producto):
         "imagen": imagen,
         "skus": skus,
         "promociones": teasers,
+        "detalle": limpiar_html(producto.get("description")),
+        "resumen": producto.get("metaTagDescription") or "",
     }
 
 

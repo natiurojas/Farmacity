@@ -1,0 +1,12 @@
+{
+  "name": "tarea02-farmacity-puppeteer",
+  "version": "1.0.0",
+  "description": "Demostracion de scraping con Puppeteer sobre Farmacity (punto 4 de la tarea).",
+  "main": "scraper_puppeteer.js",
+  "scripts": {
+    "start": "node scraper_puppeteer.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.0.0"
+  }
+}

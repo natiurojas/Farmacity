@@ -5,8 +5,5 @@
   "main": "scraper_puppeteer.js",
   "scripts": {
     "start": "node scraper_puppeteer.js"
-  },
-  "dependencies": {
-    "puppeteer-core": "^23.0.0"
   }
 }

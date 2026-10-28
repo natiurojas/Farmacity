@@ -3,7 +3,7 @@ import json
 import datetime
 import urllib.request
 
-URL = "https://www.farmacity.com/?keyword=&msclkid=b614c25633f4194d0f9ea8c6460d1c52&utm_source=bing&utm_medium=cpc&utm_campaign=BULL_FARMACITY_AR_BING_SC_X_BRAND&utm_term=farmacity&utm_content=Farmacity"
+URL = "https://www.farmacity.com"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -30,13 +30,13 @@ def extract_products(html):
         for elemento in datos.get("itemListElement", []):
             producto = elemento["item"]
             ofertas = producto.get("offers", {})
-            precio_centavos = ofertas.get("lowPrice")
+            precio_valor = ofertas.get("lowPrice")
             products.append(
                 {
                     "nombre": producto.get("name"),
                     "marca": (producto.get("brand") or {}).get("name"),
                     "sku": producto.get("sku"),
-                    "precio": precio_centavos / 100 if precio_centavos is not None else None,
+                    "precio": precio_valor if precio_valor is not None else None,
                     "moneda": ofertas.get("priceCurrency", "ARS"),
                     "url": producto.get("@id"),
                     "imagen": producto.get("image"),

@@ -94,12 +94,12 @@ def extraer_productos_jsonld(html):
         for elemento in datos.get("itemListElement", []):
             p = elemento.get("item", {})
             ofertas = p.get("offers", {})
-            centavos = ofertas.get("lowPrice")
+            precio_valor = ofertas.get("lowPrice")
             productos.append({
                 "nombre": p.get("name"),
                 "marca": (p.get("brand") or {}).get("name"),
                 "sku": p.get("sku"),
-                "precio": centavos / 100 if centavos is not None else None,
+                "precio": precio_valor if precio_valor is not None else None,
                 "moneda": ofertas.get("priceCurrency", "ARS"),
                 "url": p.get("@id"),
                 "imagen": p.get("image"),

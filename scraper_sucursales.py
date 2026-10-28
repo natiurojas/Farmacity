@@ -1,16 +1,19 @@
 import json
 import datetime
 import urllib.request
+import os
 
 API_BASE = "https://app-landing-api-prod.azurewebsites.net"
 ENDPOINT_ALL = API_BASE + "/sucursales/all"
 ENDPOINT_DETALLE = API_BASE + "/sucursales"
 
+TOKEN = os.environ.get("FARMACITY_SUCURSALES_TOKEN") or os.environ.get("FARMACITY_API_TOKEN") or "fc24a657-c4ba-347a-b051-8703fca93b47"
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Accept": "application/json",
     "Content-type": "application/json",
-    "Authorization": "Bearer fc24a657-c4ba-347a-b051-8703fca93b47",
+    "Authorization": f"Bearer {TOKEN}",
 }
 
 DIAS = {

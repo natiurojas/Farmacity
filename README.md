@@ -1,7 +1,7 @@
 # Tarea 02 - Scraping Farmacity
 
 Scripts y datos obtenidos mediante web scraping aplicado a la tienda online
-**Farmacity** (https://www.farmacity.com/), realizada como tarea del curso.
+**Farmacity** (https://www.farmacity.com/).
 
 El sitio es una tienda de comercio electrónico construida sobre la plataforma
 **VTEX** (`vtex.render-server`), por lo que la mayor parte de los datos viaja en
@@ -34,10 +34,12 @@ Los procesos que realiza el scraping son:
 | `scraper_promociones.py` | Extrae el apartado Promociones (banners y productos en promoción) y guarda `promociones.json`. |
 | `scraper_productos.py` | Recorre todo el catálogo de productos por categorías y guarda `productos_todos.json` y `promociones_catalogo.json`. |
 | `scraper_sucursales.py` | Extrae todas las sucursales (dirección, teléfono, coordenadas y horarios) y guarda `sucursales.json`. |
+| `procesar_esquema.py` | Transforma `productos_todos.json` a un esquema unificado y guarda `productos_esquema.json`. |
 | `productos.json` | Productos del carrusel de la pantalla de inicio (primeros 10). |
 | `promociones.json` | Promociones del sitio: banners (URLs de imagen) + productos destacados + tipos de promoción. |
 | `promociones_catalogo.json` | Promociones detectadas en todo el catálogo (tipo, vigencia y cantidad de productos). |
 | `productos_todos.json` | Catálogo completo: 23.585 productos con nombre, precio, imagen y códigos. |
+| `productos_esquema.json` | Productos transformados al esquema unificado generado por `procesar_esquema.py`. |
 | `sucursales.json` | 389 sucursales con dirección, teléfono, coordenadas y horarios de atención. |
 | `README.md` | Este documento. |
 
@@ -52,8 +54,7 @@ Los procesos que realiza el scraping son:
 - Extrae el bloque de datos estructurados **JSON-LD** (`application/ld+json`)
   que VTEX incluye en el HTML.
 - De cada producto guarda: nombre, marca, SKU, precio (en ARS), URL e imagen.
-- Los precios llegan en **centavos** (ej. `21231` = $212,31) y se convierten a
-  decimales.
+- Los precios provienen en pesos desde el JSON-LD (se toman tal como vienen).
 - Guarda el resultado en `productos.json`.
 
 ### 2. `scraper_promociones.py` — apartado Promociones
@@ -134,8 +135,29 @@ python scraper_promociones.py
 python scraper_productos.py
 
 # Sucursales (tarea 2, ~20 peticiones en lotes de 20)
+# Opcional: definir el token en variable de entorno (ver abajo). 
+# Por defecto usa el token público del bundle del sitio.
+python scraper_sucursales.py
+
+# Transformar productos_todos.json a esquema unificado
+python procesar_esquema.py
+```
+
+### Variables de entorno
+
+Para `scraper_sucursales.py`, podés pasar el token de autorización vía variable de entorno:
+
+```powershell
+# Windows PowerShell
+$env:FARMACITY_SUCURSALES_TOKEN="fc24a657-c4ba-347a-b051-8703fca93b47"
+python scraper_sucursales.py
+
+# Linux/Mac
+export FARMACITY_SUCURSALES_TOKEN="fc24a657-c4ba-347a-b051-8703fca93b47"
 python scraper_sucursales.py
 ```
+
+El token es el mismo que viaja en el bundle público del componente `farmacityar.branch-and-services`. Se recomienda leerlo de una variable de entorno en lugar de tenerlo hardcodeado.
 
 Para regenerar `promociones.json` con las promociones agregadas del catálogo:
 
@@ -200,9 +222,7 @@ python scraper_promociones.py
 }
 ```
 
-Los precios de la API llegan en **centavos** (ej. `21231` = $212,31); el script
-de la tarea 1 los convierte a decimales y `productos_todos.json` los guarda ya
-en pesos (la API de catálogo los entrega directamente en pesos).
+Los precios provienen en pesos. `productos_todos.json` guarda los precios tal como los entrega la API de catálogo (en pesos). Los scripts que extraen desde JSON-LD toman los precios directamente en pesos.
 
 ### `sucursales.json`
 
@@ -276,4 +296,11 @@ en pesos (la API de catálogo los entrega directamente en pesos).
   autorización que viaja en el bundle del componente.
 - El scraping usa unicamente la biblioteca estándar de Python y respeta un
   retardo entre peticiones para no sobrecargar el servidor.
+
+## Próximos pasos / trabajo futuro
+
+- **Promociones bancarias (medios de pago):** Analizar y scrapear
+  `https://www.farmacity.com/Farmacity/medios-de-pago` para extraer promociones
+  bancarias (banco, tarjeta, porcentaje de descuento, tope, días de vigencia),
+  siguiendo la misma técnica de inspección de qué JSON carga la SPA.
 ```

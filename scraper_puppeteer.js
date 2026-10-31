@@ -43,11 +43,11 @@ async function extraerPromociones(page) {
   const productos = ((lista && lista.itemListElement) || []).map((el) => {
     const item = el.item || {};
     const ofertas = item.offers || {};
-    const centavos = ofertas.lowPrice;
+    const precioValor = ofertas.lowPrice;
     return {
       nombre: item.name,
       plu: item.sku,
-      precio: centavos != null ? centavos / 100 : null,
+      precio: precioValor != null ? precioValor : null,
       moneda: ofertas.priceCurrency || "ARS",
       url_producto: item["@id"],
       imagen: item.image,
